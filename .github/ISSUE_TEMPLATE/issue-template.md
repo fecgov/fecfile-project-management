@@ -7,14 +7,6 @@ assignees: ''
 
 ---
 
----
-name: Issue template
-about: Issue template for fecfile-web-app
-title: ''
-labels: ''
-assignees: ''
-
----
 
 ### Business Reason ### 
 
