@@ -16,6 +16,7 @@
 - When creating a Loan, the Date Due and Interest Rate fields were not being updated or saved correctly if non-standard dates or rates were entered. This has been resolved. [FECFILE-1786](https://fecgov.atlassian.net/browse/FECFILE-1786)
 - First Name and Last Name of Committee Treasurer were populating in reverse when creating a Loan transaction. This has been corrected, and the displayed fields have also been reversed, so it displays as First Name, Last Name. [FECFILE-1756](https://fecgov.atlassian.net/browse/FECFILE-1756)
 - On Independent Expenditures, the Candidate District was ‘read only’ if the Candidate Office was ‘House’. That has been updated to now be editable. [FECFILE-1746](https://fecgov.atlassian.net/browse/FECFILE-1746)
+- When saving an In-kind Contribution to Candidate, the system would try to save the candidate name as the organization. This has been resolved. [FECFILE-1649](https://fecgov.atlassian.net/browse/FECFILE-1649) 
 
 ## System performance and security:
 
