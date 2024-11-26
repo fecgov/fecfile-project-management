@@ -22,4 +22,4 @@
 
 - Several performance and security enhancements are included in this release
 
-_For a more detailed look at what has changed, see our technical release notes [here](https://github.com/fecgov/fecfile-web-api/releases)._
+_For a more detailed look at what has changed, see technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
