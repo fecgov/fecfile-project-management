@@ -1,4 +1,4 @@
-# FECFILE Release Notes December 4, 2024 (Sprint 51)
+# FECFile Release Notes December 4, 2024 (Sprint 51)
 
 ## Feature updates:
 
