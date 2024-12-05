@@ -1,4 +1,6 @@
-# TBD - DRAFT (Sprint 51)
+## FECFile Release Notes
+
+# December 4, 2024 (Sprint 51)
 
 ## Feature updates:
 
@@ -7,9 +9,9 @@
 
 ## Design (UX/UI) enhancements:
 
-- Updated user profile page where ‘Last Name’ was listed before ‘First Name’ so that names are now populated and entered ‘First Name’ and ‘Last Name’ order [FECFILE-1690](https://fecgov.atlassian.net/browse/FECFILE-1690)
+- Updated user profile page so that names are now populated and entered in ‘First Name’ and ‘Last Name’ order [FECFILE-1690](https://fecgov.atlassian.net/browse/FECFILE-1690)
 - Updated input field sizes for fields on the Account Information Page to be more consistent with all other forms on the site. [FECFILE-1758](https://fecgov.atlassian.net/browse/FECFILE-1758)
-- Updated stock images throughout the application [FECFILE-1772](https://fecgov.atlassian.net/browse/FECFILE-1772)
+- Updated stock images throughout the site [FECFILE-1772](https://fecgov.atlassian.net/browse/FECFILE-1772)
 
 ## Bug fixes:
 
@@ -22,4 +24,4 @@
 
 - Several performance and security enhancements are included in this release
 
-_For a more detailed look at what has changed, see our technical release notes [here](https://github.com/fecgov/fecfile-web-api/releases)._
+_For a more detailed look at what has changed, see technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
