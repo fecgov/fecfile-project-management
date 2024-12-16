@@ -1,5 +1,38 @@
 ## FECFile Release Notes
 
+# December xx, 2024 (Sprint 52)
+
+## Feature updates:
+
+- For Form 3X, Update January 1 Cash on Hand to look back to the most recent report from a prior year [FECFILE-1770](https://fecgov.atlassian.net/browse/FECFILE-1770) 
+
+## Design (UX/UI) enhancements:
+
+- Several 508 Compliance issues were corrected, to provide consistent styling and updates to correct some issues with screen readers.  [FECFILE-392](https://fecgov.atlassian.net/browse/FECFILE-392), [FECFILE-1768](https://fecgov.atlassian.net/browse/FECFILE-1768), [FECFILE=1841](https://fecgov.atlassian.net/browse/FECFILE-1841), [FECFILE-1832](https://fecgov.atlassian.net/browse/FECFILE-1832), [FECFILE-1833](https://fecgov.atlassian.net/browse/FECFILE-1833) 
+
+
+## Bug fixes:
+
+- When the date popup appeared on an In-kind transaction was cleared, the vertical scroll bar on the web browser disappeared. This was corrected. [FECFILE-1718](https://fecgov.atlassian.net/browse/FECFILE-1718)
+- When creating an In-kind receipt transaction, if the above date error was later cleared, the In-kind Out was still displaying the date error popup. This has been resolved. [FECFILE-1719](https://fecgov.atlassian.net/browse/FECFILE-1719)
+- When a Tier 1 Independent Expenditure on Form 3X is assigned to a Form 24, if that transaction had a linked Tier 2, the linked transaction was not also brought over to the Form 24. [FECFILE-1767](https://fecgov.atlassian.net/browse/FECFILE-1767)
+- The ‘Transaction Delete’ function was not available on Loan and Debt repayment transactions, so those transactions could not be deleted. The ‘Delete’ function has been restored to those transactions. [FECFILE-1830](https://fecgov.atlassian.net/browse/FECFILE-1830)
+- The ‘Official Website of the US’ Banner was not collapsing when going to other pages after it had been expanded once [FECFILE-1835](https://fecgov.atlassian.net/browse/FECFILE-1835)
+- When adding or updating a contact, if the user clicks in the (Optional) Phone field, the system flagged this as an error and did not allow the user to save the contact or the transaction. This is resolved. [FECFILE-1861](https://fecgov.atlassian.net/browse/FECFILE-1861)
+-  The Date Signed field on the Form 3X print preview was not being populated. This has been corrected and will display the date after the report has been submitted. [FECFILE-1874](https://fecgov.atlassian.net/browse/FECFILE-1835)
+- Date Received field for both Schedule A and Schedule B transactions was not displaying "This is a required field" if it was left blank. [FECFILE-1880](https://fecgov.atlassian.net/browse/FECFILE-1880) 
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release
+
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
+
+
+
+----
+
 # December 4, 2024 (Sprint 51)
 
 ## Feature updates:
