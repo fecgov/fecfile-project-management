@@ -1,6 +1,6 @@
 ## FECFile Release Notes
 
-# March 12 (Sprint 57)
+# March 12, 2025 (Sprint 57)
 
 ## Feature updates:
 
@@ -24,7 +24,7 @@ _For a more detailed look at what has changed, refer to the technical release no
 
 ----
 
-# February 28, 2024 (Sprint 56)
+# February 28, 2025 (Sprint 56)
 
 ## Feature updates:
 
@@ -46,7 +46,7 @@ _For a more detailed look at what has changed, refer to the technical release no
 
 ----
 
-# February 18, 2024 (Sprint 55)
+# February 18, 2025 (Sprint 55)
 
 ## Feature updates:
 
@@ -70,7 +70,7 @@ _For a more detailed look at what has changed, refer to the technical release no
 _For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
 
 ----
-# December xx, 2024 (Sprint 52)
+# January 15, 2025 (Sprint 52)
 
 ## Feature updates:
 
