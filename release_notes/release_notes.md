@@ -1,24 +1,21 @@
 ## FECFile Release Notes
 
-# December 4, 2024 (Sprint 51)
+# March 12 (Sprint 57)
 
 ## Feature updates:
 
-- Report Workflow: For Form 3X, remove default report coverage dates from election and special election reports which do not have non-standard dates and alert users to always validate the report coverage dates for the reports where the dates are usually standard monthly or quarterly dates. [FECFILE-1604](https://fecgov.atlassian.net/browse/FECFILE-1604) , [FECFILE-1605](https://fecgov.atlassian.net/browse/FECFILE-1605)
-- Contact Management: Updated rules to always display ‘00’ for candidates in single district states and at-large districts [FECFILE-1686](https://fecgov.atlassian.net/browse/FECFILE-1686)
+- Schedule E: Auto-populate of the Treasurer details on the on all Schedule E transaction displays. [FECFILE-593](https://fecgov.atlassian.net/browse/FECFILE-593) 
 
 ## Design (UX/UI) enhancements:
 
-- Updated user profile page so that names are now populated and entered in ‘First Name’ and ‘Last Name’ order [FECFILE-1690](https://fecgov.atlassian.net/browse/FECFILE-1690)
-- Updated input field sizes for fields on the Account Information Page to be more consistent with all other forms on the site. [FECFILE-1758](https://fecgov.atlassian.net/browse/FECFILE-1758)
-- Updated stock images throughout the site [FECFILE-1772](https://fecgov.atlassian.net/browse/FECFILE-1772)
+- There were no design enhancements included in this release
 
 ## Bug fixes:
 
-- When creating a Loan, the Date Due and Interest Rate fields were not being updated or saved correctly if non-standard dates or rates were entered. This has been resolved. [FECFILE-1786](https://fecgov.atlassian.net/browse/FECFILE-1786)
-- First Name and Last Name of Committee Treasurer were populating in reverse when creating a Loan transaction. This has been corrected, and the displayed fields have also been reversed, so it displays as First Name, Last Name. [FECFILE-1756](https://fecgov.atlassian.net/browse/FECFILE-1756)
-- On Independent Expenditures, the Candidate District was ‘read only’ if the Candidate Office was ‘House’. That has been updated to now be editable. [FECFILE-1746](https://fecgov.atlassian.net/browse/FECFILE-1746)
-- When saving an In-kind Contribution to Candidate, the system would try to save the candidate name as the organization. This has been resolved. [FECFILE-1649](https://fecgov.atlassian.net/browse/FECFILE-1649) 
+- When creating a Form 3x monthly report March 20 the covering period is incorrect. This has been resolved. [FECFILE-2062](https://fecgov.atlassian.net/browse/FECFILE-2062)
+- Aggregate calculation (for Schedule A) not working as expected. This has been resolved [FECFILE-2044](https://fecgov.atlassian.net/browse/FECFILE-2044)
+- Your Downloads tray (window/drawer) not collapsing when changing pages. This was corrected. [FECFILE-2039](https://fecgov.atlassian.net/browse/FECFILE-2039)
+- Print preview error when itemization on receipt transaction was manually changed This has been resolved. [FECFILE-1991](https://fecgov.atlassian.net/browse/FECFILE-1991) 
 
 ## System performance and security:
 
