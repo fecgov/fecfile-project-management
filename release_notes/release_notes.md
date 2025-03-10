@@ -1,6 +1,76 @@
 ## FECFile Release Notes
 
-# December xx, 2024 (Sprint 52)
+# March 12, 2025 (Sprint 57)
+
+## Feature updates:
+
+- Schedule E: Auto-populate of the Treasurer details on the on all Schedule E transaction displays. [FECFILE-593](https://fecgov.atlassian.net/browse/FECFILE-593) 
+
+## Design (UX/UI) enhancements:
+
+- There were no design enhancements included in this release
+
+## Bug fixes:
+
+- When creating a Form 3x monthly report March 20 the covering period is incorrect. This has been resolved. [FECFILE-2062](https://fecgov.atlassian.net/browse/FECFILE-2062)
+- Aggregate calculation (for Schedule A) not working as expected. This has been resolved [FECFILE-2044](https://fecgov.atlassian.net/browse/FECFILE-2044)
+- Your Downloads tray (window/drawer) not collapsing when changing pages. This was corrected. [FECFILE-2039](https://fecgov.atlassian.net/browse/FECFILE-2039)
+- Print preview error when itemization on receipt transaction was manually changed This has been resolved. [FECFILE-1991](https://fecgov.atlassian.net/browse/FECFILE-1991) 
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
+----
+
+# February 28, 2025 (Sprint 56)
+
+## Feature updates:
+
+- Roles and Permissions: Added user role of Manager. Committee Administrator can add or update the role of a user as a Manager  [FECFILE-1840](https://fecgov.atlassian.net/browse/FECFILE-1840), [FECFILE-1846]( https://fecgov.atlassian.net/browse/FECFILE-1846), [FECFILE-1886]( https://fecgov.atlassian.net/browse/FECFILE-1886)
+
+## Design (UX/UI) enhancements:
+
+- No Design (UX/UI) enhancements in this sprint
+
+## Bug fixes:
+
+- No bugs or defects in this sprint
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release
+
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
+----
+
+# February 18, 2025 (Sprint 55)
+
+## Feature updates:
+
+- Report Workflow: For Form 3X, remove delete function from receipt transactions created by loans. [FECFILE-1829](https://fecgov.atlassian.net/browse/FECFILE-1829) 
+- Form 3: Add Form 3 to the report selection (behind a feature flag so that it is currently only visible in DEV and STAGE [FECFILE-422](https://fecgov.atlassian.net/browse/FECFILE-422)
+- Form 3X: Schedule C: System will now delete loans and debts in future reports when the loan or debt is paid off in the current reporting period [FECFILE-1662](https://fecgov.atlassian.net/browse/FECFILE-1662)
+- Login Management and Workflow: System will update email address in application when email is updated in login.gov and system will recognize when a user logs in with a new login.gov account, but having the same email address as a user in the system [FECFILE-1988]( https://fecgov.atlassian.net/browse/FECFILE-1988), [FECFILE-1989]( https://fecgov.atlassian.net/browse/FECFILE-1989)
+
+## Design (UX/UI) enhancements:
+
+- No Design (UX/UI) enhancements in this sprint
+
+## Bug fixes:
+
+- No bugs or defects in this sprint
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release
+
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
+----
+# January 15, 2025 (Sprint 52)
 
 ## Feature updates:
 
