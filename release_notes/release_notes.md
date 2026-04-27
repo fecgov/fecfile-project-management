@@ -4,21 +4,21 @@
 
 ## Feature updates:
 
-- Allow users to change contact type when creating a new contact in a transaction. FECFILE-2747
-- Display the report version, Original or Amendment #, within a report. FECFILE-2754
-- Earmark Receipt and Memo should only be itemized when entity (contact) aggregate is > $200 per calendar year. FECFILE-2866
-- For Reattribution and Redesignation, display a message that there are no in-progress reports available to choose when applicable.  FECFILE-2956
+- Allow users to change contact type when creating a new contact in a transaction. [FECFILE-2747](https://fecgov.atlassian.net/browse/FECFILE-2747)
+- Display the report version, Original or Amendment #, within a report. [FECFILE-2754](https://fecgov.atlassian.net/browse/FECFILE-2754)
+- Earmark Receipt and Memo should only be itemized when entity (contact) aggregate is > $200 per calendar year. [FECFILE-2866](https://fecgov.atlassian.net/browse/FECFILE-2866)
+- For Reattribution and Redesignation, display a message that there are no in-progress reports available to choose when applicable.  [FECFILE-2956](https://fecgov.atlassian.net/browse/FECFILE-2956)
 
 ## Design (UX/UI) enhancements:
 
-- Improved calendar date selection through enhanced date picker navigation using forward and back buttons for month and year. FECFILE-1870
-- Additional minor UI updates. FECFILE-2966, FECFILE-3030, FECFILE-3065, FECFILE-3018, FECFILE-3051
+- Improved calendar date selection through enhanced date picker navigation using forward and back buttons for month and year. [FECFILE-1870](https://fecgov.atlassian.net/browse/FECFILE-1870)
+- Additional minor UI updates. [FECFILE-2966](https://fecgov.atlassian.net/browse/FECFILE-2966), [FECFILE-3030](https://fecgov.atlassian.net/browse/FECFILE-3030), [FECFILE-3065](https://fecgov.atlassian.net/browse/FECFILE-3065), [FECFILE-3018](https://fecgov.atlassian.net/browse/FECFILE-3018), [FECFILE-3051](https://fecgov.atlassian.net/browse/FECFILE-3051)
 
 ## Bug fixes:
 
-- Save & Add Another option is not available for selection on the 2nd transaction created. This has been resolved. FECFILE-3023
-- Form 24: Validation error not updating as expected for Linked Report field. This has been resolved.  FECFILE-3050
-- Report name on F99 and F1M links to transaction page instead of form edit page. This has been resolved. FECFILE-3068
+- Save & Add Another option is not available for selection on the 2nd transaction created. This has been resolved. [FECFILE-3023](https://fecgov.atlassian.net/browse/FECFILE-3023)
+- Form 24: Validation error not updating as expected for Linked Report field. This has been resolved. [FECFILE-3050](https://fecgov.atlassian.net/browse/FECFILE-3050)
+- Report name on F99 and F1M links to transaction page instead of form edit page. This has been resolved. [FECFILE-3068](https://fecgov.atlassian.net/browse/FECFILE-3068)
 
 ## System performance and security:
 
