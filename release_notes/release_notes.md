@@ -16,9 +16,9 @@
 
 ## Bug fixes:
 
-- Save & Add Another option is not available for selection on the 2nd transaction created. This has been resolved. [FECFILE-3023](https://fecgov.atlassian.net/browse/FECFILE-3023)
-- Form 24: Validation error not updating as expected for Linked Report field. This has been resolved. [FECFILE-3050](https://fecgov.atlassian.net/browse/FECFILE-3050)
-- Report name on F99 and F1M links to transaction page instead of form edit page. This has been resolved. [FECFILE-3068](https://fecgov.atlassian.net/browse/FECFILE-3068)
+- Save & Add Another option now available for selection on the 2nd transaction created. [FECFILE-3023](https://fecgov.atlassian.net/browse/FECFILE-3023)
+- Form 24: Validation error now updating as expected for Linked Report field. [FECFILE-3050](https://fecgov.atlassian.net/browse/FECFILE-3050)
+- Report name on F99 and F1M now links to form edit page instead of transaction page. [FECFILE-3068](https://fecgov.atlassian.net/browse/FECFILE-3068)
 
 ## System performance and security:
 
