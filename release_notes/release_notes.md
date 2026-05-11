@@ -1,5 +1,32 @@
 ## FECfile+ Release Notes
 
+# May 14, 2026 (Sprint 85)
+
+## Feature updates:
+
+- Updated default itemization logic for Joint Fundraising Transfer memos. FECFILE-3043
+
+## Design (UX/UI) enhancements:
+
+- Report Details page now displays reporting frequency before time period. FECFILE-2905
+- Left navigation pane updated to float while scrolling on right. FECFILE-2897	
+- System provides a warning message when the API is unavailable on the login screen or while a user is logged in. FECFILE-3012, FECFILE-2014
+- Additional minor UX/UI updates FECFILE-2945, FECFILE-2947, FECFILE-2993, FECFILE-3036, FECFILE-3028, FECFILE-3052, FECFILE-3061
+
+## Bug fixes:
+
+- Resolved issue preventing users from submitting feedback through the Feedback Tab.  FECFILE-3097
+- Validation message for Date Received field now displays at the appropriate time. FECFILE-3081
+- Calendar datepicker no longer opens after clicking the Close button on a modal for dates outside report coverage dates. FECFILE-3082
+- "Add a second committee administrator" modal no longer persists after clicking browser back button. FECFILE-3090
+- "Terms of service and user agreement" page numbering has been removed. FECFILE-3106
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # April 30, 2026 (Sprint 84)
 
 ## Feature updates:
