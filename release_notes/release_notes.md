@@ -4,11 +4,11 @@
 
 ## Feature updates:
 
-- Updated default itemization logic for Joint Fundraising Transfer memos. [FECFILE-3043](https://fecgov.atlassian.net/browse/FECFILE-3043)
+- Updated default itemization logic for Joint Fundraising Transfer memos to no longer itemize regardless of amount. Joint Fundraising Transfer memos will now be itemized based on the contributor's reported aggregate total. [FECFILE-3043](https://fecgov.atlassian.net/browse/FECFILE-3043)
 
 ## Design (UX/UI) enhancements:
 
-- Report Details page now displays reporting frequency before time period. [FECFILE-2905](https://fecgov.atlassian.net/browse/FECFILE-2905)
+- Reports Details page now displays filing frequency above election year and non-election year options when creating or editing a report. [FECFILE-2905](https://fecgov.atlassian.net/browse/FECFILE-2905)
 - Left navigation pane updated to float while scrolling on right. [FECFILE-2897](https://fecgov.atlassian.net/browse/FECFILE-2897)
 - System provides a warning message when the API is unavailable on the login screen or while a user is logged in. [FECFILE-3012](https://fecgov.atlassian.net/browse/FECFILE-3012), [FECFILE-2014](https://fecgov.atlassian.net/browse/FECFILE-2014)
 - Additional minor UX/UI updates [FECFILE-2945](https://fecgov.atlassian.net/browse/FECFILE-2945), [FECFILE-2947](https://fecgov.atlassian.net/browse/FECFILE-2947), [FECFILE-2993](https://fecgov.atlassian.net/browse/FECFILE-2993), [FECFILE-3028](https://fecgov.atlassian.net/browse/FECFILE-3028), [FECFILE-3036](https://fecgov.atlassian.net/browse/FECFILE-3036), [FECFILE-3052](https://fecgov.atlassian.net/browse/FECFILE-3052), [FECFILE-3061](https://fecgov.atlassian.net/browse/FECFILE-3061)
