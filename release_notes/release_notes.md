@@ -4,22 +4,22 @@
 
 ## Feature updates:
 
-- Updated default itemization logic for Joint Fundraising Transfer memos to no longer itemize regardless of amount. Joint Fundraising Transfer memos will now be itemized based on the contributor's reported aggregate total. [FECFILE-3043](https://fecgov.atlassian.net/browse/FECFILE-3043)
+- Updated default itemization logic for Joint Fundraising Transfer memos to no longer itemize regardless of amount. Joint Fundraising Transfer memos will now be itemized based on the contributor's reported aggregate total.
 
 ## Design (UX/UI) enhancements:
 
-- Reports Details page now displays filing frequency above election year and non-election year options when creating or editing a report. [FECFILE-2905](https://fecgov.atlassian.net/browse/FECFILE-2905)
-- Left navigation pane updated to float while scrolling on right. [FECFILE-2897](https://fecgov.atlassian.net/browse/FECFILE-2897)
-- System provides a warning message when the API is unavailable on the login screen or while a user is logged in. [FECFILE-3012](https://fecgov.atlassian.net/browse/FECFILE-3012), [FECFILE-2014](https://fecgov.atlassian.net/browse/FECFILE-2014)
-- Additional minor UX/UI updates [FECFILE-2945](https://fecgov.atlassian.net/browse/FECFILE-2945), [FECFILE-2947](https://fecgov.atlassian.net/browse/FECFILE-2947), [FECFILE-2993](https://fecgov.atlassian.net/browse/FECFILE-2993), [FECFILE-3028](https://fecgov.atlassian.net/browse/FECFILE-3028), [FECFILE-3036](https://fecgov.atlassian.net/browse/FECFILE-3036), [FECFILE-3052](https://fecgov.atlassian.net/browse/FECFILE-3052), [FECFILE-3061](https://fecgov.atlassian.net/browse/FECFILE-3061)
+- Reports Details page now displays filing frequency above election year and non-election year options when creating or editing a report.
+- Left navigation pane updated to float while scrolling on right. 
+- System provides a warning message when the API is unavailable on the login screen or while a user is logged in. 
+- Additional minor UX/UI updates.
 
 ## Bug fixes:
 
-- Resolved issue preventing users from submitting feedback through the Feedback Tab.  [FECFILE-3097](https://fecgov.atlassian.net/browse/FECFILE-3097)
-- Validation message for Date Received field now displays at the appropriate time. [FECFILE-3081](https://fecgov.atlassian.net/browse/FECFILE-3081)
-- Calendar datepicker no longer opens after clicking the Close button on a modal for dates outside report coverage dates. [FECFILE-3082](https://fecgov.atlassian.net/browse/FECFILE-3082)
-- "Add a second committee administrator" modal no longer persists after clicking browser back button. [FECFILE-3090](https://fecgov.atlassian.net/browse/FECFILE-3090)
-- "Terms of service and user agreement" page numbering has been removed. [FECFILE-3106](https://fecgov.atlassian.net/browse/FECFILE-3106)
+- Resolved issue preventing users from submitting feedback through the Feedback Tab. 
+- Validation message for Date Received field now displays at the appropriate time.
+- Calendar datepicker no longer opens after clicking the Close button on a modal for dates outside report coverage dates.
+- "Add a second committee administrator" modal no longer persists after clicking browser back button. 
+- "Terms of service and user agreement" page numbering has been removed.
 
 ## System performance and security:
 
@@ -31,21 +31,21 @@ _For a more detailed look at what has changed, refer to the technical release no
 
 ## Feature updates:
 
-- Allow users to change contact type when creating a new contact in a transaction. [FECFILE-2747](https://fecgov.atlassian.net/browse/FECFILE-2747)
-- Display the report version, Original or Amendment #, within a report. [FECFILE-2754](https://fecgov.atlassian.net/browse/FECFILE-2754)
-- Earmark Receipt and Memo should only be itemized when entity (contact) aggregate is > $200 per calendar year. [FECFILE-2866](https://fecgov.atlassian.net/browse/FECFILE-2866)
-- For Reattribution and Redesignation, display a message that there are no in-progress reports available to choose when applicable.  [FECFILE-2956](https://fecgov.atlassian.net/browse/FECFILE-2956)
+- Allow users to change contact type when creating a new contact in a transaction.
+- Display the report version, Original or Amendment #, within a report.
+- Earmark Receipt and Memo should only be itemized when entity (contact) aggregate is > $200 per calendar year. 
+- For Reattribution and Redesignation, display a message that there are no in-progress reports available to choose when applicable.
 
 ## Design (UX/UI) enhancements:
 
-- Improved calendar date selection through enhanced date picker navigation using forward and back buttons for month and year. [FECFILE-1870](https://fecgov.atlassian.net/browse/FECFILE-1870)
-- Additional minor UI updates. [FECFILE-2966](https://fecgov.atlassian.net/browse/FECFILE-2966), [FECFILE-3030](https://fecgov.atlassian.net/browse/FECFILE-3030), [FECFILE-3065](https://fecgov.atlassian.net/browse/FECFILE-3065), [FECFILE-3018](https://fecgov.atlassian.net/browse/FECFILE-3018), [FECFILE-3051](https://fecgov.atlassian.net/browse/FECFILE-3051)
+- Improved calendar date selection through enhanced date picker navigation using forward and back buttons for month and year.
+- Additional minor UI updates. 
 
 ## Bug fixes:
 
-- Save & Add Another option now available for selection on the 2nd transaction created. [FECFILE-3023](https://fecgov.atlassian.net/browse/FECFILE-3023)
-- Form 24: Validation error now updating as expected for Linked Report field. [FECFILE-3050](https://fecgov.atlassian.net/browse/FECFILE-3050)
-- Report name on F99 and F1M now links to form edit page instead of transaction page. [FECFILE-3068](https://fecgov.atlassian.net/browse/FECFILE-3068)
+- Save & Add Another option now available for selection on the 2nd transaction created.
+- Form 24: Validation error now updating as expected for Linked Report field. 
+- Report name on F99 and F1M now links to form edit page instead of transaction page. 
 
 ## System performance and security:
 
