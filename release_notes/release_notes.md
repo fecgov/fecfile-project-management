@@ -1,6 +1,31 @@
 ## FECfile+ Release Notes
 
-# May XX, 2026 (Sprint 86)
+# May 28, 2026 (Sprint 86)
+
+## Feature updates:
+
+- Updated Form 99 “Miscellaneous Electronic Submission to the FEC” and “C-1/Loan Agreement” document type labels in the drop-down selection list.
+- Added functionality to create a Form 99 for “Loan Forgiveness” or “Debt Settlement Plan” document types and generate a .fec file.
+- Added the “Edit Name” option to the Actions menu in the “Manage users” page to allow users to edit their own profile name.
+
+## Design (UX/UI) enhancements:
+
+- Form 3X Schedule A transaction names and page headers "Receipt from Unregistered Entity"and "Receipt from Unregistered Entity - Returned/Bounced Receipt" updated to "Receipt from Unregistered Organization" and "Receipt from Unregistered Organization - Returned/Bounced Receipt".
+- Additional minor UX/UI updates are also included in this release.
+
+## Bug fixes:
+
+- Resolved page display issue when selecting the "An official website of the United States government Here's how you know" link.
+- Committee ID search box now transforms manually entered characters to uppercase.
+- Resolved issue that allowed for multiple clicking of the "Save and Add Another” button which resulted in multiple pop-up messages. 
+- Resolved issue where some icons were not appearing when using Firefox browser (ex. date picker forward/backward arrows).
+- Removed aggregate display and calculation on Conduit Earmarks and PAC Conduit Earmarks transaction pages and in the .fec file.
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
 
 # May 14, 2026 (Sprint 85)
 
