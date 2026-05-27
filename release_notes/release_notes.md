@@ -20,6 +20,7 @@
 - Resolved issue that allowed for multiple clicking of the "Save and Add Another” button which resulted in multiple pop-up messages. 
 - Resolved issue where some icons were not appearing when using Firefox browser (ex. date picker forward/backward arrows).
 - Removed aggregate display and calculation on Conduit Earmarks and PAC Conduit Earmarks transaction pages and in the .fec file.
+- Reports can now be amended multiple times, not just for the first amendment.
 
 ## System performance and security:
 
