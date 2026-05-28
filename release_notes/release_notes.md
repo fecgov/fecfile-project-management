@@ -4,13 +4,13 @@
 
 ## Feature updates:
 
-- Updated Form 99 “Miscellaneous Electronic Submission to the FEC” and “C-1/Loan Agreement” document type labels in the drop-down selection list.
-- Added functionality to create a Form 99 for “Loan Forgiveness” or “Debt Settlement Plan” document types and generate a .fec file.
+- Updated Form 99 document type labels to “Miscellaneous Electronic Submission to the FEC” and “C-1/Loan Agreement” in the drop-down selection list.
+- Added functionality to create a Form 99 document type for “Loan Forgiveness” or “Debt Settlement Plan".
 - Added the “Edit Name” option to the Actions menu in the “Manage users” page to allow users to edit their own profile name.
 
 ## Design (UX/UI) enhancements:
 
-- Form 3X Schedule A transaction names and page headers "Receipt from Unregistered Entity"and "Receipt from Unregistered Entity - Returned/Bounced Receipt" updated to "Receipt from Unregistered Organization" and "Receipt from Unregistered Organization - Returned/Bounced Receipt".
+- Form 3X Schedule A transaction names and page headers updated from "Receipt from Unregistered Entity"and "Receipt from Unregistered Entity - Returned/Bounced Receipt" to "Receipt from Unregistered Organization" and "Receipt from Unregistered Organization - Returned/Bounced Receipt".
 - Additional minor UX/UI updates are also included in this release.
 
 ## Bug fixes:
