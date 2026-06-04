@@ -4,6 +4,26 @@
 
 ## Feature updates:
 
+- 
+
+## Design (UX/UI) enhancements:
+
+- 
+
+## Bug fixes:
+
+- 
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
+# May 28, 2026 (Sprint 86)
+
+## Feature updates:
+
 - Updated Form 99 document type labels to “Miscellaneous Electronic Submission to the FEC” and “C-1/Loan Agreement” in the drop-down selection list.
 - Added functionality to create a Form 99 document type for “Loan Forgiveness” or “Debt Settlement Plan".
 - Added the “Edit Name” option to the Actions menu in the “Manage users” page to allow users to edit their own profile name.
