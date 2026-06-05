@@ -5,7 +5,6 @@
 ## Feature updates:
 
 - Updated Form 3 with “Edit Report Details” functionality for changing report types and/or coverage dates on reports “in progress" or “submission failure” status.
-- Added FECfile+ to fec.gov status page.
 - Updated Schedule C loan transactions with an exact interest rate % entered to divide the value by 100 when generating the .fec file.
 - When creating or editing a Form 3/3X YE report in an election year, the coverage start date now defaults to blank.
 
