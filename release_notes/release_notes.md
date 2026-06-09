@@ -4,21 +4,18 @@
 
 ## Feature updates:
 
-- Updated Form 3 with “Edit Report Details” functionality for changing report types and/or coverage dates on reports “in progress" or “submission failure” status.
-- Updated Schedule C loan transactions with an exact interest rate % entered to divide the value by 100 when generating the .fec file.
-- When creating or editing a Form 3/3X YE report in an election year, the coverage start date now defaults to blank.
+- Schedule C loan transactions with an exact interest rate (%) will be divided by 100 when generating the .fec file.
+- When creating or editing a Form 3X YE report in an election year, the coverage start date now defaults to blank.
 
 ## Design (UX/UI) enhancements:
 
-- Updated Schedule C loan transactions entry for an exact interest rate % to require a numerical value and not allow a % and for other to require entry of free text.
 - Form 24 updated to require report name entry after the report type (24-Hour or 48-Hour).
-- Form 3X Schedule A transaction name and page header "Refund of Unregistered Receipt from Person" updated to "Refund of Receipts from Unregistered Organization".
-- Updated Form 3 create report page user interface for selection of time period (election/non-election year), available reports and coverage dates with defaults.
+- Form 3X Schedule A transaction name "Refund of Unregistered Receipt from Person" updated to "Refund of Receipts from Unregistered Organization".
 - Additional minor UX/UI updates are also included in this release.
 
 ## Bug fixes:
 
-- Unamend is no longer allowed for in progress reports.
+- Unamend is no longer allowed for submitted reports.
 
 ## System performance and security:
 
