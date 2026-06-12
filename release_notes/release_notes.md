@@ -1,5 +1,29 @@
 ## FECfile+ Release Notes
 
+# June 11, 2026 (Sprint 87)
+
+## Feature updates:
+
+- Form 99 Document Type options were updated for Miscellaneous Electronic Submission to the FEC and C-1/Loan Agreement. Form 99 Document Type now includes two additional options of Loan Forgiveness and Debt Settlement Plan. This conforms to the FEC's updated electronic filing specifications.
+- Schedule C loan transactions with an interest rate (%) will be divided by 100 when generating the .fec file. This conforms to the FEC's electronic filing specifications.
+- When creating or editing a Form 3X Year-End (YE) report in an election year, the coverage start date now defaults to blank. A user is required to manually enter in the date.
+
+## Design (UX/UI) enhancements:
+
+- Form 24 updated to require unique report name entry after the report type (24-Hour or 48-Hour).
+- Form 3X Schedule A transaction name "Refund of Unregistered Receipt from Person" updated to "Refund of Receipt from Unregistered Organization".
+- Additional minor UX/UI updates are also included in this release.
+
+## Bug fixes:
+
+- Unamend is no longer allowed for submitted reports.
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # May 28, 2026 (Sprint 86)
 
 ## Feature updates:
