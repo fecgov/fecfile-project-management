@@ -14,7 +14,7 @@
 ## Bug fixes:
 
 - Form 99 can now be saved after initially selecting Filing Frequency Change Notice then changing to different document type.
-- When creating committee or candidate contacts, duplicate ID validation error now returns after selecting committee or candidate ID from lookup.
+- Duplicate ID validation errors now trigger instantly when selecting a committee or candidate ID from the lookup, fixing a bug where the error was delayed until trying to save.
 
 ## System performance and security:
 
