@@ -1,5 +1,27 @@
 ## FECfile+ Release Notes
 
+# June 25, 2026 (Sprint 88)
+
+## Feature updates:
+
+- N/A
+
+## Design (UX/UI) enhancements:
+
+- Form 3X Schedule A transaction name and page header "Refund of Receipts from Unregistered Organization"  updated to "Refund of Receipt from Unregistered Organization".
+- Additional minor UX/UI updates are also included in this release.
+
+## Bug fixes:
+
+- Form 99 can now be saved after initially selecting Filing Frequency Change Notice then changing to different document type.
+- Duplicate ID validation errors now trigger instantly when selecting a committee or candidate ID from the lookup, fixing a bug where the error was delayed until trying to save.
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # June 11, 2026 (Sprint 87)
 
 ## Feature updates:
