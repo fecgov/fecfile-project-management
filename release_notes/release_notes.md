@@ -1,5 +1,29 @@
 ## FECfile+ Release Notes
 
+# July 9, 2026 (Sprint 89)
+
+## Feature updates:
+
+- Updated system-generated purpose description text and logic to be based on the existence of memos and their itemization for Credit Card, Staff Reimbursement and Payment to Payroll Disbursement transactions on Schedule B & E.
+- Updated system-generated purpose description text and logic to be based on the existence of memos and their itemization for Partnership Receipt transactions on Schedule A.
+- Updated Form 24 independent expenditure entry to prevent linking to a submitted Form 3X report.
+- Updated Form 24 to provide ability to edit report type (24-hour or 48-hour).
+
+## Design (UX/UI) enhancements:
+
+- Minor UX/UI updates are included in this release.
+
+## Bug fixes:
+
+- In a Form 99, Filing Frequency Change Notice, the Quarterly / Monthly toggle now clears if the document type is changed to Form 3L Filing Frequency Change Notice (and vice versa).
+- After selecting a report, the Report Status option in the left navigation bar now reloads the status page.
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # June 25, 2026 (Sprint 88)
 
 ## Feature updates:
