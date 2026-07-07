@@ -4,8 +4,7 @@
 
 ## Feature updates:
 
-- Updated system-generated purpose description text and logic to be based on the existence of memos and their itemization for Credit Card, Staff Reimbursement and Payment to Payroll Disbursement transactions on Schedule B & E.
-- Updated system-generated purpose description text and logic to be based on the existence of memos and their itemization for Partnership Receipt transactions on Schedule A.
+- Updated system-generated purpose description text and logic to be based on the existence of memos and their itemization for Credit Card, Staff Reimbursement and Payment to Payroll Disbursement transactions on Schedule B & E, as well as Partnership Receipt transactions on Schedule A.
 - Updated Form 24 independent expenditure entry to prevent linking to a submitted Form 3X report.
 - Updated Form 24 to provide ability to edit report type (24-hour or 48-hour).
 
@@ -16,7 +15,7 @@
 ## Bug fixes:
 
 - In a Form 99, Filing Frequency Change Notice, the Quarterly / Monthly toggle now clears if the document type is changed to Form 3L Filing Frequency Change Notice (and vice versa).
-- After selecting a report, the Report Status option in the left navigation bar now reloads the status page.
+- When viewing a submitted report, the Report Status option in the left navigation bar now reloads the status page.
 
 ## System performance and security:
 
