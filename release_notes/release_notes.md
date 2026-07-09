@@ -4,7 +4,7 @@
 
 ## Feature updates:
 
-- Updated system-generated purpose description text and logic to be based on the existence of memos and their itemization for Credit Card, Staff Reimbursement and Payment to Payroll Disbursement transactions on Schedule B & E, as well as Partnership Receipt transactions on Schedule A.
+- Updated system-generated purpose text and logic for Credit Card, Staff Reimbursement and Payment to Payroll Disbursement transactions on Schedules B & E, as well as Partnership Receipt transactions on Schedule A to be based on the existence of linked memo transactions and whether those transactions are itemized.
 - Updated Form 24 independent expenditure entry to prevent linking to a submitted Form 3X report.
 - Updated Form 24 to provide ability to edit report type (24-hour or 48-hour).
 
