@@ -6,7 +6,7 @@
 
 - When creating a new contact during a transaction, a warning appears if a matching record exists - by first and last name for individuals (IND), or organization name for organizations (ORG). Users can select and use the existing contact directly from the prompt.
 - When creating a new contact within a transaction, the contact can be saved without saving the transaction.
-- When generating a .fec file for Form 3X/3 report types 12P, 12G, 12R, 12S and 12C, the election code will be included.
+- When generating a .fec file for Form 3X report types 12P, 12G, 12R, 12S and 12C, the election code will be included.
 
 ## Design (UX/UI) enhancements:
 
