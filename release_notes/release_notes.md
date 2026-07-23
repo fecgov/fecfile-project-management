@@ -1,5 +1,25 @@
 ## FECfile+ Release Notes
 
+# July 23, 2026 (Sprint 90)
+
+## Feature updates:
+
+- When creating a new contact within a transaction, the contact can be saved without saving the transaction.
+
+## Design (UX/UI) enhancements:
+
+- Minor UX/UI updates for 508 remediation are included in this release.
+
+## Bug fixes:
+
+- When generating a .fec file for Form 3X report types 12P, 12G, 12R, 12S and 12C, the election code will be included.
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # July 9, 2026 (Sprint 89)
 
 ## Feature updates:
