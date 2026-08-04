@@ -1,5 +1,32 @@
 ## FECfile+ Release Notes
 
+# August 6, 2026 (Sprint 91)
+
+## Feature updates:
+
+- When creating a new candidate or committee contact within a transaction, if an existing contact is found with the same ID#, a warning will be returned.
+- When creating a new individual or organization contact within a transaction, if an existing contact is found with the same name, a warning will be returned.
+- Form 99 Text Message field is now required for Miscellaneous Electronic Submission (MST) document type only.
+- Existing transactions can be cloned for certain receipt (Schedule A) and disbursement (Schedule B) transactions.  In addition, the "Clone" option has been added to the Save drop-down. 
+
+## Design (UX/UI) enhancements:
+
+- Minor UX/UI updates are included in this release.
+
+## Bug fixes:
+
+- Deleting a "Reattributed" individual receipt transaction no longer deletes the original transaction.
+- Redesignating a transaction from a previous report to a future report can now be saved.
+- The Reattribute option in the transaction Actions menu has been restored for submitted reports.
+- Updating Reattribution/Redesignation To transaction no longer disassociates it from the original transaction.
+- When filling out the Feedback box, text can now be removed from optional fields prior to submitting. 
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # July 23, 2026 (Sprint 90)
 
 ## Feature updates:
