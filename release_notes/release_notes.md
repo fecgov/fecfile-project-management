@@ -4,10 +4,9 @@
 
 ## Feature updates:
 
-- When creating a new candidate or committee contact within a transaction, if an existing contact is found with the same ID#, a warning will be returned.
-- When creating a new individual or organization contact within a transaction, if an existing contact is found with the same name, a warning will be returned.
-- Form 99 Text Message field is now required for Miscellaneous Electronic Submission (MST) document type only.
-- Existing transactions can be cloned for certain receipt (Schedule A) and disbursement (Schedule B) transactions.  In addition, the "Clone" option has been added to the Save drop-down. 
+- When creating a contact within a transaction, a warning will be returned if an existing contact matches by ID (for candidates and committees) or by name (for individuals and organizations).
+- For a Form 99, text is now only required for the Miscellaneous Electronic Submission (MST) document type.
+- Existing transactions can be cloned for certain receipt (Schedule A) and disbursement (Schedule B) transaction, either from the transaction table or within the transaction itself.
 
 ## Design (UX/UI) enhancements:
 
@@ -15,11 +14,11 @@
 
 ## Bug fixes:
 
-- Deleting a "Reattributed" individual receipt transaction no longer deletes the original transaction.
-- Redesignating a transaction from a previous report to a future report can now be saved.
-- The Reattribute option in the transaction Actions menu has been restored for submitted reports.
-- Updating Reattribution/Redesignation To transaction no longer disassociates it from the original transaction.
-- When filling out the Feedback box, text can now be removed from optional fields prior to submitting. 
+- Deleting a reattributed receipt transaction no longer deletes the original transaction.
+- Reattributing or redesignating a transaction from a previous report to a future report can now be saved.
+- The "Reattribute" option in the transaction action menu has been restored in submitted reports for relevant transactions.
+- Updating a "Reattribution/Redesignation To" transaction no longer disassociates it from the original transaction.
+- When filling out the feedback box, text can now be removed from optional fields prior to submitting. 
 
 ## System performance and security:
 
