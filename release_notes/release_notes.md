@@ -4,9 +4,9 @@
 
 ## Feature updates:
 
-- When creating a contact within a transaction, a warning will be returned if an existing contact matches by ID (for candidates and committees) or by name (for individuals and organizations).
+- When creating a contact within a transaction, a warning will be returned if an existing contact matches by name (for individuals and organizations), by Committee ID (for committees) or by Candidate ID (for candidates).
 - For a Form 99, text is now only required for the Miscellaneous Electronic Submission (MST) document type.
-- Existing transactions can be cloned for certain receipt (Schedule A) and disbursement (Schedule B) transaction, either from the transaction table or within the transaction itself.
+- Existing transactions can be cloned for certain receipt (Schedule A) and disbursement (Schedule B) transactions, either from the transaction table or within the transaction itself.
 
 ## Design (UX/UI) enhancements:
 
