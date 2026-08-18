@@ -1,5 +1,29 @@
 ## FECfile+ Release Notes
 
+# August 20, 2026 (Sprint 92)
+
+## Feature updates:
+
+- Submitted Form 1M reports can now be amended for editing and re-submitting.
+- For reports 30G, 30S and 30R, the election code displays when generating the *.fec file.
+- When accessing a non-production environment, a banner displays at the top of the page to identify the environment name.
+- A new “Transactions” option is now on the committee page and will be available in future functionality to display unassigned transactions.
+- The “Save and add another” option should not be available for repayments, reattributions or redesignations and has been removed.
+
+## Design (UX/UI) enhancements:
+
+- Minor UX/UI updates are included in this release.
+
+## Bug fixes:
+
+-  Date field validations have been updated to trigger after data entry has been completed for the date field.  Validations include checking required entry and date format.
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # August 10, 2026 (Sprint 91)
 
 ## Feature updates:
