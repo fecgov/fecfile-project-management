@@ -7,8 +7,7 @@
 - Submitted Form 1M reports can now be amended for editing and re-submitting.
 - For reports 30G, 30S and 30R, the election code displays when generating the *.fec file.
 - When accessing a non-production environment, a banner displays at the top of the page to identify the environment name.
-- A new “Transactions” option is now on the committee page and will be available in future functionality to display unassigned transactions.
-- The “Save and add another” option should not be available for repayments, reattributions or redesignations and has been removed.
+- The “Save and add another” option for repayments, reattributions and redesignations has been removed.
 
 ## Design (UX/UI) enhancements:
 
