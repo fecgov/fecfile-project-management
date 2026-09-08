@@ -1,5 +1,28 @@
 ## FECfile+ Release Notes
 
+# September 10, 2026 (Sprint 93)
+
+## Feature updates:
+
+- FECfile+ sends an email notification to users who have been added as a committee administrator by another user.
+
+## Design (UX/UI) enhancements:
+
+- Minor UX/UI updates are included in this release.
+
+## Bug fixes:
+
+- Reattribution transaction page no longer displays “Optional” for Memo Item field.
+- When searching via lookup for a senate or presidential candidate that is not already an existing contact, the selection of the contact will now correctly open the contact modal and populate the page with selected contact data.
+- The invalid “Hang on" modal no longer displays after selecting to redesignate a disbursement transaction on a submitted report for a committee that has open reports.
+- The “Just checking” modal close button ("X") format has been updated to match application standards.
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # August 27, 2026 (Sprint 92)
 
 ## Feature updates:
