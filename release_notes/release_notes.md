@@ -2,10 +2,6 @@
 
 # September 10, 2026 (Sprint 93)
 
-## Feature updates:
-
-- FECfile+ sends an email notification to users who have been added as a committee administrator by another user.
-
 ## Design (UX/UI) enhancements:
 
 - Minor UX/UI updates are included in this release.
