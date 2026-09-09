@@ -8,10 +8,8 @@
 
 ## Bug fixes:
 
-- Reattribution transaction page no longer displays “Optional” for Memo Item field.
-- When searching via lookup for a senate or presidential candidate that is not already an existing contact, the selection of the contact will now correctly open the contact modal and populate the page with selected contact data.
-- The invalid “Hang on" modal no longer displays after selecting to redesignate a disbursement transaction on a submitted report for a committee that has open reports.
-- The “Just checking” modal close button ("X") format has been updated to match application standards.
+- Reattribution transaction page now correctly pre-selects the Memo Item field and no longer displays it as "Optional.
+- When searching via lookup for a senate or presidential candidate that is not already an existing contact, the selection of the contact will now correctly open the contact pop-up and populate the page with selected contact data.
 
 ## System performance and security:
 
