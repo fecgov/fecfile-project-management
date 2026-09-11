@@ -1,5 +1,22 @@
 ## FECfile+ Release Notes
 
+# September 10, 2026 (Sprint 93)
+
+## Design (UX/UI) enhancements:
+
+- Minor UX/UI updates are included in this release.
+
+## Bug fixes:
+
+- Reattribution transaction page now correctly pre-selects the Memo Item field and no longer displays it as "Optional.
+- When searching via lookup for a senate or presidential candidate that is not already an existing contact, the selection of the contact will now correctly open the contact pop-up and populate the page with selected contact data.
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # August 27, 2026 (Sprint 92)
 
 ## Feature updates:
