@@ -8,12 +8,12 @@
 
 ## Bug fixes:
 
-- When amending and unamending a report previously amended, the version is now automatically refreshed on the Manage Reports page.
+- When amending and unamending a previously amended report, the report version number is now automatically refreshed on the Manage Reports page.
 - On the FECfile+ login page, tabbing to the footer section or pressing any key while hovering on the login button no longer launches Login.gov.
 - The “Add a second committee administrator” pop-up can no longer be closed without entering an email for the second committee administrator.
-- When selecting a "registered candidate" contact from candidate lookup, the contact name is now returned rather than HTML code.
+- When selecting a "registered candidate" contact from candidate lookup, there is no longer a brief view of HTML.
 - Users can now successfully save a Schedule B transaction that has been cloned using the Action>Clone option or the Save and clone button.
-- After clicking a Save button (w/o dropdown options) or Save both transactions button, the button is now disabled to prevent double-clicking and creating multiple transactions.
+- After clicking "Save" on a transaction or tiered transaction, the "Save" button is now disabled to prevent double-clicking and creating multiple transactions.
 - When a user switches committees, if FECfile+ is open in another browser tab, they will now be notified of the committee change in that tab.
 
 ## System performance and security:
