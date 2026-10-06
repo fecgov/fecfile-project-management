@@ -1,5 +1,26 @@
 ## FECfile+ Release Notes
 
+# October 6, 2026 (Sprint 95)
+
+## Feature updates:
+
+- When creating a new contact within a transaction, the duplicate contact pop-up list has been updated for individual (to include middle name, prefix, suffix), candidate (to include middle name, prefix, suffix, candidate ID) and committee (to include committee ID).
+
+## Design (UX/UI) enhancements:
+
+- Minor UX/UI updates are included in this release.
+
+## Bug fixes:
+
+- When selecting a "registered committee" contact from Committee Lookup, the contact name is now returned rather than HTML code.
+- When scrolling down on a page that displays a Contact Lookup search, the dropdown list no longer scrolls over the top navigation.
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # September 25, 2026 (Sprint 94)
 
 ## Design (UX/UI) enhancements:
