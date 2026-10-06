@@ -1,6 +1,6 @@
 ## FECfile+ Release Notes
 
-# October 6, 2026 (Sprint 95)
+# October 7, 2026 (Sprint 95)
 
 ## Feature updates:
 
