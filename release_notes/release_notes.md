@@ -4,7 +4,7 @@
 
 ## Feature updates:
 
-- When creating a new contact within a transaction, the duplicate contact pop-up list has been updated for individual (to include middle name, prefix, suffix), candidate (to include middle name, prefix, suffix, candidate ID) and committee (to include committee ID).
+- When creating a new contact within a transaction, the duplicate contact pop-up list now includes additional information for individuals (to include middle name, prefix, suffix), candidates (to include middle name, prefix, suffix, candidate ID) and committees (to include committee ID).
 
 ## Design (UX/UI) enhancements:
 
