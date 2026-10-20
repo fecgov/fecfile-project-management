@@ -1,5 +1,30 @@
 ## FECfile+ Release Notes
 
+# October 23, 2026 (Sprint 96)
+
+## Feature updates:
+
+- When creating a contact on the “Manage contacts” page, a duplicate contact pop-up list will be returned if an existing contact matches by name (for individuals and organizations), by Committee ID (for committees) or by Candidate ID (for candidates).
+
+## Design (UX/UI) enhancements:
+
+- Minor UX/UI updates are included in this release.
+
+## Bug fixes:
+
+- When creating Form 3X report types 12G, 12P, 12R, 12S, 12C, 30G, 30R, 30S, the election date and state/territory are now required fields.
+- The report drop-down for adding an independent expenditure from a F3X to a F24 report now displays only “in-progress” reports.
+- The “Your downloads” tray now has an “X” button to close the tray after downloading a file.
+- The date picker calendar for loans and multi-step transactions in Form 3X reports is no longer truncated.
+- After selecting Save when creating a new contact in Manage Contacts, the button is now disabled to prevent double-clicking.
+- Form 3X entity aggregate totals are now calculated correctly for unaggregated or reaggregated transactions.
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # October 7, 2026 (Sprint 95)
 
 ## Feature updates:
