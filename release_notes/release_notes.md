@@ -12,12 +12,12 @@
 
 ## Bug fixes:
 
-- When creating Form 3X report types 12G, 12P, 12R, 12S, 12C, 30G, 30R, 30S, the election date and state/territory are now required fields.
-- The report drop-down for adding an independent expenditure from a F3X to a F24 report now displays only “in-progress” reports.
+- When creating Form 3X report types: 12G, 12P, 12R, 12S, 12C, 30G, 30R and 30S, the election date and state/territory fields are now required.
+- The report drop-down for adding an independent expenditure from a Form 3X to a Form 24 report now displays only “in-progress” reports.
 - The “Your downloads” tray now has an “X” button to close the tray after downloading a file.
 - The date picker calendar for loans and multi-step transactions in Form 3X reports is no longer truncated.
 - After selecting Save when creating a new contact in Manage Contacts, the button is now disabled to prevent double-clicking.
-- Form 3X entity aggregate totals are now calculated correctly for unaggregated or reaggregated transactions.
+- Form 3X entity aggregate totals are now calculated correctly for unaggregated transactions.
 
 ## System performance and security:
 
