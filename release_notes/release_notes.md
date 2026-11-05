@@ -1,5 +1,25 @@
 ## FECfile+ Release Notes
 
+# November 5, 2026 (Sprint 97)
+
+## Design (UX/UI) enhancements:
+
+- Minor UX/UI updates are included in this release.
+
+## Bug fixes:
+
+- When adding a disbursement on a Form 3X that includes the lookup/entry of a candidate and selecting “Save and Add Another”, the next transaction can now be saved successfully.
+- When adding a contact in Contacts Management and selecting “Save & Add More”, a different contact type can now be selected prior to saving the next contact.
+- Form 3X transactions requiring employer and occupation entry due to an aggregated amount >$200 now validate these fields correctly prior to saving.
+- A manually unaggregated Independent Expenditure now correctly displays the Unaggregated label on the Manage Transactions page.
+- For Form 3X, the Update Cash on Hand page (Line 6A override) now correctly displays the current Cash on Hand value and not the previous value. 
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # October 23, 2026 (Sprint 96)
 
 ## Feature updates:
