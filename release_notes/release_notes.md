@@ -1,5 +1,29 @@
 ## FECfile+ Release Notes
 
+# November 19, 2026 (Sprint 98)
+
+## Feature updates:
+
+- Submitted Form 1M reports can be viewed as read-only.
+- Submitted Form 99 reports can be viewed as read-only.
+- An in-line validation error is now displayed when entering invalid characters into a report or transaction level memo text field for Form 3X reports.
+- When selecting a candidate or committee contact from the registered FEC list in a Form 1M report, the Add Contact pop-up opens for updating and saving the contact.
+
+## Design (UX/UI) enhancements:
+
+- Minor UX/UI updates are included in this release.
+
+## Bug fixes:
+
+- Form 3X reports with unaggregated or “re-aggregated” independent expenditure (IE) transactions now display the correct aggregate value on the transaction detail page.
+- When creating or editing a candidate contact from a single district state, the candidate district now defaults correctly when selecting or editing the candidate office. 
+
+## System performance and security:
+
+- Several performance and security enhancements are included in this release.
+  
+_For a more detailed look at what has changed, refer to the technical release notes for our code repositories: [fecfile-web-app](https://github.com/fecgov/fecfile-web-app/releases), [fecfile-web-api](https://github.com/fecgov/fecfile-web-api/releases), [fecfile-api-proxy](https://github.com/fecgov/fecfile-api-proxy/releases), [fecfile-validate](https://github.com/fecgov/fecfile-validate/releases)._
+
 # November 5, 2026 (Sprint 97)
 
 ## Design (UX/UI) enhancements:
