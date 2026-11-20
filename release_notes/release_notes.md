@@ -6,7 +6,7 @@
 
 - Submitted Form 1M reports can be viewed as read-only.
 - Submitted Form 99 reports can be viewed as read-only.
-- An in-line validation error is now displayed when entering invalid characters into a report or transaction level memo text field for Form 3X reports.
+- An in-line validation error is now displayed when entering invalid characters into report level or transaction level memo text fields for Form 3X reports.
 - When selecting a candidate or committee contact from the registered FEC list in a Form 1M report, the Add Contact pop-up opens for updating and saving the contact.
 
 ## Design (UX/UI) enhancements:
@@ -15,7 +15,7 @@
 
 ## Bug fixes:
 
-- Form 3X reports with unaggregated or “re-aggregated” independent expenditure (IE) transactions now display the correct aggregate value on the transaction detail page.
+- Form 3X reports where a user has selected Unaggregate or Aggregate for independent expenditure (IE) transactions now display the correct aggregate value on the transaction detail page.
 - When creating or editing a candidate contact from a single district state, the candidate district now defaults correctly when selecting or editing the candidate office. 
 
 ## System performance and security:
